@@ -17,3 +17,22 @@ C:\Users\admin\documents\visual studio 2012\Projects\BookStore\BookStore\bin\Dat
 C:\Users\admin\documents\visual studio 2012\Projects\BookStore\BookStore\bin\Shared.pdb
 C:\Users\admin\documents\visual studio 2012\Projects\BookStore\BookStore\obj\Debug\BookStore.dll
 C:\Users\admin\documents\visual studio 2012\Projects\BookStore\BookStore\obj\Debug\BookStore.pdb
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\BookStore.dll
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\BookStore.pdb
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\Controller.dll
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\Newtonsoft.Json.dll
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\Shared.dll
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\System.Net.Http.Formatting.dll
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\System.Web.Http.dll
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\System.Web.Http.WebHost.dll
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\DataAccess.dll
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\Controller.pdb
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\Shared.pdb
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\Newtonsoft.Json.xml
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\System.Net.Http.Formatting.xml
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\System.Web.Http.xml
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\System.Web.Http.WebHost.xml
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\bin\DataAccess.pdb
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\obj\Debug\BookStore.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\obj\Debug\BookStore.dll
+C:\Users\admin\Documents\GitHub\AngularJS-WebAPI-BookStore\BookStore\obj\Debug\BookStore.pdb
