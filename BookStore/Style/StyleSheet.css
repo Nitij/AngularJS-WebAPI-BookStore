@@ -1,0 +1,293 @@
+﻿.discount-true
+{
+    text-decoration: line-through;
+    color: Gray;
+}
+
+.divHeader {
+    background-color:black;
+    height:200px;
+    width:100%;
+    padding:5px;
+    text-align:center;
+}
+
+.divButtonPane {
+    background-color:white;
+    height:75px;
+    width:100%;
+    text-align:center; 
+    vertical-align:auto;   
+}
+
+.divBody {
+    background-color:white;
+    height:500px;
+    width:90%;
+    overflow-y:scroll;
+    padding:50px;
+}
+
+.divBookBody {
+    background-color:white;
+    height:500px;
+    width:90%;
+    overflow-y:scroll;
+    padding:50px;
+}
+
+.divFooter {
+    background-color:black;
+    height:200px;
+    width:100%;
+    text-align:center;
+}
+
+.blueButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background-color:#79bbff;	
+	text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial Black;
+	font-size:32px;
+	font-weight:bold;
+	font-style:normal;
+	height:70px;
+	line-height:70px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #528ecc;
+}.blueButton:hover {
+	background-color:#378de5;
+}.blueButton:active {
+	position:relative;
+	top:1px;
+}
+
+.redButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background-color:#fe1a00;	
+	text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial Black;
+	font-size:32px;
+	font-weight:bold;
+	font-style:normal;
+	height:70px;
+	line-height:70px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #b23e35;
+}.redButton:hover {
+	background-color:#ce0100;
+}.redButton:active {
+	position:relative;
+	top:1px;
+}
+
+.purpleButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #d197fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #d197fe;
+	box-shadow:inset 0px 1px 0px 0px #d197fe;
+	background-color:#a53df6;	
+	text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial Black;
+	font-size:32px;
+	font-weight:bold;
+	font-style:normal;
+	height:70px;
+	line-height:70px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #7d15cd;
+}.purpleButton:hover {
+	background-color:#7c16cb;
+}.purpleButton:active {
+	position:relative;
+	top:1px;
+}
+
+.greenButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background-color:#b8e356;	
+	text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial Black;
+	font-size:32px;
+	font-weight:bold;
+	font-style:normal;
+	height:70px;
+	line-height:70px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #86ae47;
+}.greenButton:hover {
+	background-color:#a5cc52;
+}.greenButton:active {
+	position:relative;
+	top:1px;
+}
+
+.yellowButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	background-color:#f0c911;	
+	text-indent:0;
+	display:inline-block;
+	color:#c92200;
+	font-family:Arial Black;
+	font-size:32px;
+	font-weight:bold;
+	font-style:normal;
+	height:70px;
+	line-height:70px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ded17c;
+}.yellowButton:hover {
+	background-color:#f2ab1e;
+}.yellowButton:active {
+	position:relative;
+	top:1px;
+}
+
+.pinkButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	background-color:#ff5bb0;	
+	text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial Black;
+	font-size:32px;
+	font-weight:bold;
+	font-style:normal;
+	height:70px;
+	line-height:70px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #c70067;
+}.pinkButton:hover {
+	background-color:#ef027d;
+}.pinkButton:active {
+	position:relative;
+	top:1px;
+}
+
+.buyNowButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	font-style:normal;
+	height:35px;
+	line-height:35px;
+	width:109px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cc9f52;
+}
+.buyNowButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+}.buyNowButton:active {
+	position:relative;
+	top:1px;
+}
+
+.tooltip-Css {
+    padding:10px;
+    background-color: #fffae8;
+    border: 2px solid #999999;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    -moz-box-shadow: 0px 0px 3px #000000;
+    -webkit-box-shadow: 0px 0px 3px #000000;
+    box-shadow: 0px 0px 3px #000000;
+    opacity: 0.9;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 90);
+    filter: alpha(opacity = 90);
+}
+
+.logoText{
+font-family: Garamond, serif;
+line-height: 1em;
+color: #fff9d6;
+font-weight:bold;
+font-size: 127px;
+text-shadow:0px 0px 0 rgb(232,232,232),
+            1px 1px 0 rgb(219,219,219),
+            2px 2px 0 rgb(206,206,206),
+            3px 3px 0 rgb(192,192,192),
+            4px 4px 0 rgb(179,179,179),
+            5px 5px 0 rgb(166,166,166),
+            6px 6px 0 rgb(153,153,153),
+            7px 7px 6px rgba(0,0,0,0.6),
+            7px 7px 1px rgba(0,0,0,0.5),
+            0px 0px 6px rgba(0,0,0,.2);
+}
+
+.boldFont800 {
+    font:bold;
+    font-family:Arial;
+    font-weight:800;
+}
+
+.boldFontGray800 {
+    font:bold;
+    font-family:Arial;
+    font-weight:800;
+    color:gray;
+}
+
+.boldSmallFontGray300 {
+    font:bold;
+    font-family:Arial;
+    font-weight:300;
+    color:gray;
+    font-size:small;
+}

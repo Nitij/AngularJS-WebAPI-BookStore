@@ -1,0 +1,112 @@
+﻿<div id="divBookBody" class="divBookBody">
+    <table>
+        <tr>
+            <td style="padding:5px;">
+                <img src="Resources/Images/{{book.Image}}"/>
+            </td>
+            <td>
+                <span style="font:bold;font-family:Arial;font-weight:800;font-size:xx-large">{{book.Name}}</span><br />
+                <img src="Resources/Images/{{GetRatingImage(book.Rating)}}" height="17px" width="90px"/>
+                <hr />
+                <span class="boldFont800">Author: </span>
+                <span class="boldFontGray800">{{book.AuthorName}}</span><br />
+                <span class="boldFont800">Publisher: </span>
+                <span class="boldFontGray800">{{book.PublisherName}}</span><br />
+                <hr />
+                <span style="font:bold;font-family:Arial;font-weight:800;" class="discount-{{HasDiscount(book.Discount)}}">Rs. {{book.Price}}</span>
+                <span class="boldFont800">{{GetActualPrice(book.Price, book.Discount)}}</span><br />
+                <span class="boldSmallFontGray300">
+                    Inclusive of all taxes.
+                </span><br /><br />
+                <span class="boldSmallFontGray300">
+                    Free home delivery if total order amount is Rs. 1000 or above. Add Rs. 100 otherwise.
+                </span><br />
+                <table>
+                    <tr>
+                        <td>
+                            <a href ="#" class="buyNowButton">BUY NOW</a>
+                        </td>
+                        <td>
+                            <span style="font:bold;font-family:Arial;font-weight:800;color:green;font-size:large">
+                                In Stock
+                            </span><br />
+                            <span class="boldSmallFontGray300">
+                                Delivered in 2-3 business days.
+                            </span>
+                        </td>
+                    </tr>
+                </table>                
+            </td>
+        </tr>
+    </table>
+    <hr />
+    <span style="font:bold;font-family:Arial;font-weight:800;">Summary Of The Book:</span><br />
+    <span class="boldSmallFontGray300"">
+        {{book.Details}}
+    </span>
+    <hr />
+    <span style="font:bold;font-family:Arial;font-weight:800;">Specificatons Of The Book:</span><br />
+    <table style="border:1px solid gray;">
+        <tr>
+            <td style="padding:5px;">
+                <span class="boldSmallFontGray300">Author</span>
+            </td>
+            <td style="padding:5px;">
+                <span class="boldSmallFontGray300">
+                    {{book.AuthorName}}
+                </span>
+            </td>
+        </tr> 
+        <tr>
+            <td style="padding:5px;">
+                <span class="boldSmallFontGray300">Publisher</span>
+            </td>
+            <td style="padding:5px;">
+                <span class="boldSmallFontGray300">
+                    {{book.PublisherName}}
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:5px;">
+                <span class="boldSmallFontGray300">Publication Year</span>
+            </td>
+            <td style="padding:5px;">
+                <span class="boldSmallFontGray300">
+                    {{book.PublicationYear}}
+                </span>
+            </td>
+        </tr>   
+        <tr>
+            <td style="padding:5px;">
+                <span class="boldSmallFontGray300">ISBN-13</span>
+            </td>
+            <td style="padding:5px;">
+                <span class="boldSmallFontGray300">
+                    {{book.ISBN13}}
+                </span>
+            </td>
+        </tr>   
+        <tr>
+            <td style="padding:5px;">
+                <span class="boldSmallFontGray300">ISBN-10</span>
+            </td>
+            <td style="padding:5px;">
+                <span class="boldSmallFontGray300">
+                    {{book.ISBN10}}
+                </span>
+            </td>
+        </tr>   
+        <tr>
+            <td style="padding:5px;">
+                <span class="boldSmallFontGray300">Language</span>
+            </td>
+            <td style="padding:5px;">
+                <span class="boldSmallFontGray300">
+                    {{book.Language}}
+                </span>
+            </td>
+        </tr>            
+    </table>
+    <hr />
+</div>

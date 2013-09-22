@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="BookStore.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script src ="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script type="text/javascript" src = "Scripts/App.js"></script>
+    <script type="text/javascript" src="Scripts/Controllers.js"></script>  
+    <script type="text/javascript" src="Scripts/tooltip.js"></script> 
+    <link rel="stylesheet" href="Style/StyleSheet.css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body ng-app="bookStore">
+    <form id="form1" runat="server">
+    <div id="divHeader" class="divHeader">
+        <span class="logoText">
+            Online Book Store
+        </span><br />
+        <span style="font-family:Arial;font-size:small;font-weight:400;color:whitesmoke">
+            Made by using AngularJS and Asp.Net Web API
+        </span>
+    </div>
+    <div style="height:5px;background-color:white;width:100%;"></div>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    <div style="height:5px;background-color:white;width:100%;"></div>
+    <div id="divFooter" class="divFooter">
+        <span style="font-family:Arial;font-size:small;font-weight:400;color:whitesmoke">
+            Add some stuff here...
+        </span>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Shared\bin\Debug\Shared.dll
+C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Shared\bin\Debug\Shared.pdb
+C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
+C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Shared\obj\Debug\Shared.dll
+C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Shared\obj\Debug\Shared.pdb

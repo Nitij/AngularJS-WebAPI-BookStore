@@ -1,0 +1,53 @@
+﻿<div id="divButtonPane" class="divButtonPane">
+    <a href ="" class="blueButton" ng-click="GetBooksByCategory('romance')">ROMANCE</a>
+    <a href ="" class="redButton" ng-click="GetBooksByCategory('thriller')">THRILLER</a>
+    <a href ="" class="purpleButton" ng-click="GetBooksByCategory('classics')">CLASSICS</a>
+    <a href ="" class="greenButton" ng-click="GetBooksByCategory('fantasy')">FANTASY</a>
+    <a href ="" class="yellowButton" ng-click="GetBooksByCategory('mystery')">MYSTERY</a>
+    <a href ="" class="pinkButton" ng-click="GetBooksByCategory('science fiction')">SCI-FI</a>
+</div>
+<div id="divBody" class="divBody">
+    <div style="width:80%">
+        <ul style="list-style-type:none;">
+            <li ng-repeat="book in books">
+                <table>
+                    <tr>
+                        <td style = "width:20%;padding:20px;text-align:center;">
+                            <img ng-src="Resources/Images/{{book.Image}}" width="200px" height="300px" tooltipid= "imgBook{{book.Id}}"/>
+                            {{SetToolTip(book.Id, book.Name, book.AuthorName, book.PublisherName, book.Price, book.Discount, book.Language, book.PublicationYear, book.ISBN13, book.ISBN10)}}
+                        </td>
+                        <td style = "width:80%;padding:20px;text-align:left;">
+                            <a ng-href = '#/book-detail/{{book.Id}}'>
+                                <span style="font:bold;font-family:Arial;font-weight:800;font-size:xx-large">{{book.Name}}</span> 
+                            </a><br />
+                            <span style="font:bold;font-family:Arial;font-weight:400;font-size:small;color:gray;">
+                                By: {{book.AuthorName}}
+                            </span><br />
+                            <img ng-src="Resources/Images/{{GetRatingImage(book.Rating)}}" height="17px" width="90px"/>                            
+                            <hr />
+                            <table>
+                                <tr>
+                                    <td>
+                                        <span class="boldFont800" class="discount-{{HasDiscount(book.Discount)}}">Rs. {{book.Price}}</span>
+                                        <span class="boldFont800">{{GetActualPrice(book.Price, book.Discount)}}</span><br />
+                                        <span style="font:bold;font-family:Arial;color:green;font-weight:800;">In Stock</span><br />
+                                        <span style="font:bold;font-family:Arial;color:gray;font-size:small">
+                                            Delivered in 2-3 business days.
+                                        </span><br />
+                                        <a href ="#" class="buyNowButton">BUY NOW</a>
+                                    </td>
+                                    <td style="vertical-align:top;">
+                                        <span class="boldFont800">Publisher: </span>
+                                        <span class="boldFontGray800">{{book.PublisherName}}</span><br />
+                                        <span class="boldFont800">Released: </span>
+                                        <span class="boldFontGray800">{{book.PublicationYear}}</span><br />
+                                    </td>
+                                </tr>
+                            </table>                                    
+                        </td>
+                    </tr>
+                </table>                                             
+            </li>                      
+        </ul>                   
+    </div>            
+</div>
