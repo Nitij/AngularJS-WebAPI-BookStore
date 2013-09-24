@@ -76,10 +76,11 @@
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\App.js" />
-    <Content Include="Scripts\Controllers.js" />
     <Content Include="Scripts\tooltip.js" />
     <Content Include="Style\StyleSheet.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BookController.cs" />
