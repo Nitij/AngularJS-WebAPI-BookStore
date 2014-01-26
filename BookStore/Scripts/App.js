@@ -67,7 +67,7 @@ bookApp.controller('MainCtrl', function ($scope, BooksDataService) {
     //Get Books by their category   
     $scope.GetBooksByCategory = function (category) {
         BooksDataService.ReadBooks(BooksDataService.OperationType.GetBooksByCatagory, category).
-            then(function (config, data, headers, status) { arguments[0].data; });
+            then(function (config, data, headers, status) {$scope.books = arguments[0].data; });
     };
 
     //set the tooltips for all the book images
