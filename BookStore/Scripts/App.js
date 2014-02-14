@@ -106,27 +106,8 @@ bookApp.controller('BookCtrl', function ($scope, $routeParams, BooksDataService)
 });
 
 //Gets rating image based on the rating value passed
-function GetRatingImage(rating) {
-    switch (rating) {
-        case 0:
-            return "0star.png";
-            break;
-        case 1:
-            return "1star.png";
-            break;
-        case 2:
-            return "2star.png";
-            break;
-        case 3:
-            return "3star.png";
-            break;
-        case 4:
-            return "4star.png";
-            break;
-        case 5:
-            return "5star.png";
-            break;
-    }
+function getRatingImage(rating){
+  return rating + "star.png";
 }
 
 //Gets the actual price after deducting the discount
