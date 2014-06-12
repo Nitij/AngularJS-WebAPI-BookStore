@@ -87,7 +87,7 @@ bookApp.controller('MainCtrl', function ($scope, BooksDataService) {
     };
 
     //Get our helper methods
-    $scope.GetRatingImage = GetRatingImage;
+    $scope.GetRatingImage = getRatingImage;
     $scope.GetActualPrice = GetActualPrice;
     $scope.HasDiscount = HasDiscount;
     
@@ -100,7 +100,7 @@ bookApp.controller('BookCtrl', function ($scope, $routeParams, BooksDataService)
         then(function (config, data, headers, status) { $scope.book = arguments[0].data[0]; });
 
     //Get our helper methods
-    $scope.GetRatingImage = GetRatingImage;
+    $scope.GetRatingImage = getRatingImage;
     $scope.GetActualPrice = GetActualPrice;
     $scope.HasDiscount = HasDiscount;
 });
