@@ -1,9 +1,0 @@
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Controller\bin\Debug\Controller.dll
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Controller\bin\Debug\Controller.pdb
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Controller\bin\Debug\DataAccess.dll
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Controller\bin\Debug\Shared.dll
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Controller\bin\Debug\DataAccess.pdb
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Controller\bin\Debug\Shared.pdb
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Controller\obj\Debug\Controller.dll
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\Controller\obj\Debug\Controller.pdb

@@ -5,4 +5,3 @@ This application demonstrates how to use Asp.Net web api RESTful services to sen
 
 This application does not contain any kind of user management or any payment processing system as this is outside the boundary of the scope of this article, but you can implement them easily enough if you want to by modifying the existing code. 
 
-Modify the connection string in the Web.Config to run this code.

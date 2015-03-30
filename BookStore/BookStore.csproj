@@ -124,6 +124,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
     <Folder Include="Resources\Images\" />
   </ItemGroup>
   <PropertyGroup>

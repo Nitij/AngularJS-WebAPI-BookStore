@@ -1,7 +1,0 @@
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\DataAccess\bin\Debug\DataAccess.dll
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\DataAccess\bin\Debug\DataAccess.pdb
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\DataAccess\bin\Debug\Shared.dll
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\DataAccess\bin\Debug\Shared.pdb
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\DataAccess\obj\Debug\DataAccess.dll
-C:\Users\admin\documents\visual studio 2012\Projects\BookStore\DataAccess\obj\Debug\DataAccess.pdb
